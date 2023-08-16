@@ -1,0 +1,167 @@
+/* login.css */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color */
+    line-height: 1.6;
+}
+
+/* Header styles */
+.header {
+    background-color: #121212; /* Darker header background */
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-list li a:hover {
+    color: #f39c12; /* Highlight color on hover */
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('hero-background.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #e67e22; /* Darker highlight color on hover */
+}
+
+/* Features section styles */
+.features {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.feature {
+    margin-bottom: 40px;
+}
+
+.feature-icon img {
+    max-width: 80px;
+    margin: 0 auto;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #a0a0a0; /* Lighter text color for features */
+}
+
+/* About section styles */
+.about {
+    background-color: #111;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+/* Contact section styles */
+.contact {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact a {
+    color: #f39c12;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact a:hover {
+    color: #e67e22; /* Darker highlight color on hover */
+}
+
+/* Footer styles */
+.footer {
+    background-color: #121212;
+    color: #a0a0a0;
+    padding: 20px 0;
+    text-align: center;
+}

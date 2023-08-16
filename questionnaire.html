@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+    <link rel="stylesheet" href="questionnaire.css">
+</head>
+<body>
+    <div class="questionnaire-container">
+        <iframe src="your_questionnaire.html" frameborder="0" width="100%" height="800"></iframe>
+    </div>
+
+    <div class="response-form">
+        <h2>Provide Your Responses</h2>
+        <form id="userResponses">
+            <label for="response1">Response to Question 1:</label>
+            <input type="text" id="response1" name="response1" placeholder="Your response to question 1" required>
+            
+            <label for="response2">Response to Question 2:</label>
+            <textarea id="response2" name="response2" placeholder="Your response to question 2" required></textarea>
+            
+            <!-- Add more fields for other questions -->
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+  
+  <footer>
+    <p>&copy; 2023 E&G Survey Pro. All rights reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+  <script src="capture_responses.js"></script>
+</body>
+</html>
