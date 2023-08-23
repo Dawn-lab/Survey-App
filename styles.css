@@ -7,20 +7,21 @@ body, h1, h2, h3, p {
 /* Basic styling for the landing page */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #e9f4fd; /* Light blue background color */
-  color: #333;
+  background-color: #1f376a; /* Light blue background color */
+  color: #ffffff;
   transition: background-color 0.5s ease;
 }
 
 header {
-  background-color: #36a6e7; /* Light blue header background color */
+  background-color: #1f376a; /* Light blue header background color */
   color: #fff;
   text-align: center;
   padding: 3rem 0;
 }
 
 .feature {
-  border: 1px solid #ddd;
+  border: 1px solid #ddd;border-radius: 12px;
+  color: #1f376a;
   padding: 1rem;
   margin: 1rem;
   text-align: center;
@@ -54,16 +55,18 @@ header {
 }
 
 .cta-button {
-  background-color: #36a6e7; /* Light blue CTA button background color */
+  background-color: #1f376a; /* Light blue CTA button background color */
   color: #fff;
   border: none;
-  padding: 1rem 2rem;
+  /* padding: 1rem 2rem; */
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-  background-color: #2493d0; /* Slightly darker blue on hover */
+  background-color:  #fff; /* Slightly darker blue on hover */
+  color: #1f376a;
+  border: 1px solid  #1f376a;
 }
 
 footer {
